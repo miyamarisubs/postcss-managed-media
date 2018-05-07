@@ -1,0 +1,9 @@
+{
+    "name": "postcss-managed-media",
+    "version": "0.0.1",
+    "description": "Really custom media in CSS",
+    "main": "dist/index.js",
+    "repository": "https://github.com/miyamarisubs/postcss-custom-media",
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
+    "license": "MIT"
+}
