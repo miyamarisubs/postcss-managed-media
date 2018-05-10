@@ -32,10 +32,9 @@
 
 prettier.config.js
 
-# webpack
+# TypeScript
 
-serve.config.js
-webpack.config.js
+tsconfig.json
 
 # Various
 
