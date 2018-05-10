@@ -1,6 +1,6 @@
 {
     "name": "postcss-managed-media",
-    "version": "0.0.2-alpha.1",
+    "version": "0.0.2-alpha.2",
     "description": "Really custom media in CSS",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -8,11 +8,7 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
     "license": "MIT",
     "scripts": {
-        "build": "babel -o ./dist/index.js ./src/index.ts && tsc -d --emitDeclarationOnly --declarationDir ./dist/ ./src/index.ts",
-        "postinstall": "mkdirp build coverage cache dist temp var build",
-        "clean": "rimraf build coverage cache dist temp var build",
-        "postclean": "yarn run postinstall",
-        "clean-dist": "rimraf \"dist/**/*\""
+        "build": "babel -o ./dist/index.js ./src/index.ts && tsc -d --emitDeclarationOnly --declarationDir ./dist/ ./src/index.ts"
     },
     "dependencies": {
         "@babel/polyfill": "^7.0.0-beta.46",
